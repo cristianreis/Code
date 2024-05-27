@@ -3,54 +3,63 @@ body {
     font-family: Arial, sans-serif;
     background-color: #000;
     color: #fff;
-
 }
+
 .navbar {
-   padding: 60px;
+    padding: 60px;
     top: 0;
     width: 100%;
     position: absolute;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 60px;
     background: #37363615;
 }
+
 .navbar .brand {
-    font-family: 'Anta', Courier, monospace; /* Tipografia diferente */
+    font-family: 'Anta', Courier, monospace;
+    /* Tipografia diferente */
     font-size: 24px;
     color: #fff;
 }
+
 .navbar .menu {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
+
 .navbar .menu li {
     margin-left: 20px;
 }
+
 .navbar .menu li a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
 }
+
 .navbar .menu li a:hover {
     text-decoration: underline;
 }
+
 .navbar .menu li a.contact-button {
-    background-color: #FF6E14; /* Cor de fundo rosa */
+    background-color: #FF6E14;
+    /* Cor de fundo rosa */
     padding: 10px 20px;
-    border-radius: 8px; /* Pontas arredondadas */
+    border-radius: 8px;
+    /* Pontas arredondadas */
     color: #fff;
     text-decoration: none;
     font-size: 14px;
 }
 
 .navbar .menu li a.contact-button:hover {
-    background-color: #ff6e1473; /* Cor rosa mais clara ao passar o mouse */
+    background-color: #ff6e1473;
+    /* Cor rosa mais clara ao passar o mouse */
 }
-
 
 .hero {
     position: relative;
@@ -86,13 +95,17 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(/Back.png); /* Substitua pelo caminho da sua imagem de fundo */
+    background-image: url(/esse.jpg);
+    /* Substitua pelo caminho da sua imagem de fundo */
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Camada preta semitransparente */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Camada preta semitransparente */
     z-index: -1;
-    animation: zoomAnimation 10s infinite alternate; /* Adicionando a animação */
+    animation: zoomAnimation 10s infinite alternate;
+    /* Adicionando a animação */
 }
+
 .hero::after {
     content: "";
     position: absolute;
@@ -100,7 +113,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 3, 0, 0.85); /* Camada preta semitransparente */
+    background-color: rgba(0, 3, 0, 0.85);
+    /* Camada preta semitransparente */
     z-index: -1;
 }
 
@@ -110,7 +124,8 @@ body {
     justify-content: space-between;
     width: 80%;
     align-items: center;
-    z-index: 2; /* Garante que o conteúdo fique acima da camada preta */
+    z-index: 2;
+    /* Garante que o conteúdo fique acima da camada preta */
 }
 
 .text-container {
@@ -147,7 +162,6 @@ body {
     max-width: 70%;
     max-height: 70%;
 }
-
 
 .cards-section {
     padding: 60px 20px;
@@ -211,7 +225,6 @@ body {
     background-color: #ff6e145b;
 }
 
-
 .development-process {
     padding: 60px 20px;
     text-align: center;
@@ -238,7 +251,6 @@ body {
     position: relative;
 }
 
-
 .progress-step {
     position: relative;
     display: flex;
@@ -254,7 +266,7 @@ body {
     border-radius: 50%;
     border: 2px solid #fff;
     position: absolute;
-    top: -11px; 
+    top: -11px;
     z-index: 1;
 }
 
@@ -273,6 +285,7 @@ body {
 .progress-content p {
     font-size: 14px;
 }
+
 #current-year {
     display: block;
     text-align: center;
